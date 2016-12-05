@@ -1,0 +1,26 @@
+<div class="container">
+    <div class="col-md-12" *ngIf="queryStr">
+        Filter products by: <u>{{ queryStr }}</u>
+        <hr>
+    </div>
+    <!--empty state-->
+    <div class="col-md-12" *ngIf="productList && !productList.length">
+        No result found.
+    </div>
+    <!--ideal state-->
+    <div class="col-lg-3 col-md-6" *ngFor="let prod of productList">
+        <div class="card">
+            <img [src]="prod.image" [alt]="prod.name" class="card-img-top img-fluid">
+
+            <div class="card-block">
+                <a [routerLink]="prod.id" class="card-link">
+                    {{ prod.name }}
+                </a>
+                <p class="card-text">
+                    {{ prod.price.currency }} {{ prod.price.amount }}
+                </p>
+                <button (click)="addToCart(prod)" class="btn btn-primary">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+</div>

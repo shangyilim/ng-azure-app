@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1,
+        "name": "Apple iPhone 7 128GB (Gold)",
+        "price": {
+            "amount": "3699",
+            "currency": "RM"
+        },
+        "image": "assets/products/prod-apple-7.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Asus ZenFone Go (ZB500KL) 2GB + 16GB (Silver Blue)",
+        "price": {
+            "amount": "600",
+            "currency": "RM"
+        },
+        "image": "assets/products/prod-asus-zen-phone.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Huawei P9 32GB Dual SIM LTE (Prestige Gold)",
+        "price": {
+            "amount": "1999",
+            "currency": "RM"
+        },
+        "image": "assets/products/prod-huawei-p9.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Oneplus 3 LTE 6GB + 64GB Oxygen OS (Graphite)",
+        "price": {
+            "amount": "2888",
+            "currency": "RM"
+        },
+        "image": "assets/products/prod-one-plus-3.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Samsung Galaxy S7 32GB (Gold Platinum)",
+        "price": {
+            "amount": "2699",
+            "currency": "RM"
+        },
+        "image": "assets/products/prod-samsung-s7.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Sony Xperia Z5 Premium Dual E6883 (Black)(Black 32GB)",
+        "price": {
+            "amount": "3000",
+            "currency": "RM"
+        },
+        "image": "assets/products/prod-sony-xperia.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Xiaomi Redmi Note 3 16GB (Silver)",
+        "price": {
+            "amount": "699",
+            "currency": "RM"
+        },
+        "image": "assets/products/prod-xiaomi-redmi-note-3.jpg"
+    }
+]
